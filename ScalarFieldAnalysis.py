@@ -157,7 +157,7 @@ def analyze_nancy_pelosi_trades(file_path: str, num_samples: int = 100):
 
 # Main execution block
 if __name__ == '__main__':
-    file_path = "C:\\Users\\BenPrendergast\\Documents\\Python\\Trading Test\\testData.csv"
+    file_path = "\\testData.csv"
     performance_metrics = analyze_nancy_pelosi_trades(file_path, num_samples=100)
     print("Averaged Trade Performance Metrics:")
     print(performance_metrics)
